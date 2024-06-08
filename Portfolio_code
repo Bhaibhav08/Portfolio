@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaibhav Raj - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold">Bhaibhav Raj</a>
+            <div class="space-x-4">
+                <a href="#about" class="text-gray-300 hover:text-white">About</a>
+                <a href="#projects" class="text-gray-300 hover:text-white">Projects</a>
+                <a href="#certifications" class="text-gray-300 hover:text-white">Certifications</a>
+                <a href="#coding" class="text-gray-300 hover:text-white">Coding Achievements</a>
+                <a href="#internship" class="text-gray-300 hover:text-white">Internship</a>
+                <a href="#hackathon" class="text-gray-300 hover:text-white">Hackathon</a>
+                <a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="text-center py-12">
+        <h2 class="text-4xl font-bold mb-6">About Me</h2>
+        <p class="text-lg">
+            Hello! I'm Bhaibhav Raj, a passionate software developer with a knack for creating scalable and efficient web applications. I thrive on tackling complex problems and turning ideas into reality. With a robust foundation in both front-end and back-end technologies, I am dedicated to continuous learning and innovation. Let's build something amazing together!
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Complain Website</h3>
+                    <p class="mb-4">Developed an E-Complaint Website to allow users to file and track complaints easily. This project used HTML/CSS, JavaScript, and ReactJS to create a responsive and user-friendly interface. I worked as a Front End Developer in a team of 5 members, focusing on creating interactive components and ensuring a smooth user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Certifications</h2>
+            <ul class="list-disc list-inside text-left max-w-lg mx-auto">
+                <li class="text-lg mb-2">MERN Stack Internship by Ethnus, 2023</li>
+                <li class="text-lg mb-2">The Bits and Bytes of Computer Networking, Coursera, Jan 2023</li>
+                <li class="text-lg mb-2">Learning Google Cloud Security, LinkedIn, Dec 2022</li>
+                <li class="text-lg mb-2">DSA Foundation, Coding Ninjas, Jan 2024</li>
+                <li class="text-lg mb-2">High Performance Coding (DSA using C++), iamneo, April 2024</li>
+                <li class="text-lg mb-2">Cloud Computing, NPTEL</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Coding Achievements Section -->
+    <section id="coding" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Coding Achievements</h2>
+            <ul class="list-disc list-inside text-left max-w-lg mx-auto">
+                <li class="text-lg mb-2">Hackerrank: 3 star in C++ and Python (<a href="https://www.hackerrank.com/dashboard" class="text-blue-500">Profile</a>)</li>
+                <li class="text-lg mb-2">GeeksforGeeks: Rank 987 (<a href="https://www.geeksforgeeks.org/user/bhaibhav7huy/" class="text-blue-500">Profile</a>)</li>
+                <li class="text-lg mb-2">LeetCode: <a href="https://leetcode.com/u/Bhaibhavraj/" class="text-blue-500">Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Internship</h2>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-4">Intern at ETHNUS</h3>
+                <p class="mb-4">Sep 2023 - Nov 2023 (3 months), Remote</p>
+                <ul class="list-disc list-inside text-left max-w-lg mx-auto">
+                    <li class="text-lg mb-2">Developed scalable MERN applications, enhancing both backend and frontend functionality for optimal performance.</li>
+                    <li class="text-lg mb-2">Contributed to cross-functional teams, actively troubleshooting and debugging code to ensure efficient solutions.</li>
+                    <li class="text-lg mb-2">Adapted to Agile methodologies, improving workflow efficiency and ensuring timely delivery of high-quality software products.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hackathon Section -->
+    <section id="hackathon" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Hackathon</h2>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-4">TECHACKS 3.0 Hackathon Winner</h3>
+                <p class="mb-4">Our team, HexaCoders, emerged as the winner in the Best Open Innovation Track at TECHACKS 3.0 Hackathon organized by Chitkara University. Our project, Bin By Me, is a revolutionary AI-based waste management system. Special thanks to my teammates Shantanu Singh Verma and Rajeev Ranjan Singh for their dedication and hard work throughout the event. It's been an incredible journey, and we couldn't have done it without the support of our excellent mentor.</p>
+                <p class="text-lg mb-6"><a href="https://www.linkedin.com/posts/bhaibhav-raj-6b4041196_team-event-project-activity-7036661034148933632-bkwq?utm_source=share&utm_medium=member_desktop" class="text-blue-500">LinkedIn Post</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+            <p class="text-lg mb-4">Email: <a href="mailto:Bhaibahvraj564@gmail.com" class="text-blue-500">Bhaibahvraj564@gmail.com</a></p>
+            <p class="text-lg mb-4">Phone: <a href="tel:+919334015911" class="text-blue-500">+91 9334015911</a></p>
+            <p class="text-lg mb-6">LinkedIn: <a href="https://www.linkedin.com/in/bhaibhav-raj-6b4041196" class="text-blue-500">linkedin.com/in/bhaibhav-raj-6b4041196</a></p>
+            <p class="text-lg mb-6">GitHub: <a href="https://github.com/Bhaibhav08" class="text-blue-500">github.com/Bhaibhav08</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+</body>
+</html>
